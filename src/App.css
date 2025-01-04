@@ -1,42 +1,78 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #f5f5f5;
+}
+header {
+  background: #000;
+  padding: 20px;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+header h1 {
+  color: #fff;
+  margin: 0;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background: #1f1f1f;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+nav a {
+  margin: 0 15px;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 16px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a:hover {
+  color: #00bcd4;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(45deg, #333, #000);
 }
-
-.card {
-  padding: 2em;
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
-
-.read-the-docs {
-  color: #888;
+.hero button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 18px;
+  color: #000;
+  background: #00bcd4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero button:hover {
+  background: #0288d1;
+}
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+form input, form select, form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+form button {
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f1f1f;
+  color: #777;
 }
