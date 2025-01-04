@@ -10,6 +10,7 @@ function App() {
   }
   return (
     <>
+      <div id="center-content">
       <header>
         <h1>BloodLink</h1>
         <nav>
@@ -94,6 +95,7 @@ function App() {
   <footer>
     <p>&copy; 2024 BloodLink. All Rights Reserved.</p>
   </footer>
+  </div>
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -114,6 +116,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
+    
 
     </>
   )
