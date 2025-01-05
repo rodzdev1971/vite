@@ -1,0 +1,22 @@
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(45deg, #333, #000);
+  }
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .hero button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    color: #000;
+    background: #00bcd4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hero button:hover {
+    background: #0288d1;
+  }
