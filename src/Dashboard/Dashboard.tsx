@@ -1,11 +1,46 @@
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
+import './dashboard.css'
 
 export default function DashBoard(){
     return(
-        
+        <>
+        {/* //  <Button variant="flat" size="xxl">
+        //     flat button
+        //  </Button> */}
+        <Container style={{marginBottom:'0.5rem'}}>
+            <Row className='row-bkg'>
+                <Col>
+                    <Card style={{ width: '18rem', marginBottom:'0.5rem', marginTop:'0.5rem' }}>
+                        <Card.Header>Featured</Card.Header>
+                        <Card.Body>
+                            <Card.Title>Special title treatment</Card.Title>
+                            <Card.Text>
+                            With supporting text below as a natural lead-in to additional content.
+                            </Card.Text>
+                        <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card style={{ width: '18rem', marginBottom:'0.5rem', marginTop:'0.5rem' }}>
+                        <Card.Header>Featured</Card.Header>
+                        <Card.Body>
+                            <Card.Title>Special title treatment</Card.Title>
+                            <Card.Text>
+                            With supporting text below as a natural lead-in to additional content.
+                            </Card.Text>
+                            <Button variant="primary">Go somewhere</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+        </Container>
         <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
                 <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -32,6 +67,7 @@ export default function DashBoard(){
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
+        </>
         
     )
 }
