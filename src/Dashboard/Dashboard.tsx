@@ -23,7 +23,7 @@ export default function DashBoard(){
                             <Card.Text>
                             With supporting text below as a natural lead-in to additional content.
                             </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="flat">Go somewhere</Button>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -35,7 +35,7 @@ export default function DashBoard(){
                             <Card.Text>
                             With supporting text below as a natural lead-in to additional content.
                             </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                            <Button variant="flat">Go somewhere</Button>
                         </Card.Body>
                     </Card>
                 </Col>

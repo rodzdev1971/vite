@@ -4,10 +4,14 @@
 }
 
 .btn-flat {
-    background-color: purple;
+     background-color: #00bcd4;
     color: white;
-  }
-  .btn-xxl {
+}
+.btn-flat:hover{
+    background-color: #2db0f7 !important; 
+
+}
+.btn-xxl {
     padding: 1rem 1.5rem;
     font-size: 1.5rem;
-  }
+}
