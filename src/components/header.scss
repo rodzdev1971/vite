@@ -1,28 +1,33 @@
 @import '../colors';
 
 header {
-    background: $primaryColor;
+    background: $neutralColorW;
     // padding: 20px;
     text-align: center;
   }
   header h1 {
-    color: $secondaryColor;
+    // background: $primaryColorNB;
+    color: $primaryColorNB;
     font-weight: bold;
-    margin: 0;
+    border-radius: 10px;;
+    margin-bottom: 5px;
+    font-size: 50px;
   }
   nav {
     display: flex;
     justify-content: center;
-    padding: 10px 0;
-    background:$fourthColor;
+    margin-top:5px;
+    border-radius: 10px;
+    padding: 25px 0;
+    background:$primaryColorNB;
   }
   nav a {
     margin: 0 15px;
-    color: $secondaryColor;
+    color: $secondaryColorLG;
     text-decoration: none;
     font-size: 22px;
   }
   nav a:hover {
-    color:$fifthColor;
+    color:$neutralColorW;
     font-weight: 600;
   }

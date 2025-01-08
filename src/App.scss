@@ -1,14 +1,22 @@
 
 //Palette color at https://colorhunt.co/palette/f5f7f8f4ce14495e5745474b
-$primaryColor:#F2F7FF;
-$secondaryColor: #0B409C;
-$tertiaryColor: #10316B;
-$fourthColor: #FFE867;
+// $primaryColor:#F2F7FF;
+// $secondaryColor: #0B409C;
+// $tertiaryColor: #10316B;
+// $fourthColor: #FFE867;
+
+/// chatgpt suggestions
+$primaryColorR: #da5007;
+$primaryColorNB:#003366;
+$secondaryColorG: #28A745;
+$secondaryColorLG: #eee6e6;
+$neutralColorW: #FFFFFF;
+$neutralColorC: #333333;
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: $primaryColor;
-  color: $secondaryColor;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: $secondaryColorLG;
+  color: $primaryColorNB;
 }
 
 // .hero {
@@ -43,18 +51,27 @@ form input, form select, form button {
   width: 100%;
   margin: 10px 0;
   padding: 10px;
-  font-size: 16px;
+  font-size: 22px;
 }
 form button {
-  background: $secondaryColor;
-  color: $fourthColor;
+  background: $primaryColorR;
+  color: $neutralColorW;
   border: none;
   cursor: pointer;
   border-radius: 5px;
 }
+
+form button:hover {
+  background: $secondaryColorG;
+  color: $neutralColorW;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 footer {
   text-align: center;
   padding: 20px;
-  background: $tertiaryColor;
-  color: $primaryColor;
+  background: $primaryColorNB;
+  color: $neutralColorW;
 }

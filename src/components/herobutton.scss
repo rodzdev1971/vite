@@ -8,19 +8,19 @@
   .hero h2 {
     font-size: 36px;
     margin-bottom: 20px;
-    color:$secondaryColor;
+    color:$neutralColorC;
     font-weight: bold;
   }
   .hero button {
     padding: 10px 20px;
     margin: 10px;
     font-size: 18px;
-    color: $fourthColor;
-    background: $secondaryColor;
+    color: $neutralColorW;
+    background: $primaryColorR;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
   .hero button:hover {
-    background: $tertiaryColor;
+    background: $secondaryColorG;
   }
