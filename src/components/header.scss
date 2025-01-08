@@ -1,0 +1,28 @@
+@import '../colors';
+
+header {
+    background: $primaryColor;
+    // padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    color: $secondaryColor;
+    font-weight: bold;
+    margin: 0;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background:$fourthColor;
+  }
+  nav a {
+    margin: 0 15px;
+    color: $secondaryColor;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  nav a:hover {
+    color:$fifthColor;
+    font-weight: 600;
+  }

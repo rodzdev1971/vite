@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import './App.css'
+import './App.scss'
 import AboutUs from './components/AboutUs.';
 import ContactUs from './components/ContactUs';
 import FindBloodForm from './components/FindBloodForm';

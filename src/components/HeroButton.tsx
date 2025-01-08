@@ -1,4 +1,4 @@
-import './herobutton.css';
+import './herobutton.scss';
 
 export default function HeroButton(){
 
