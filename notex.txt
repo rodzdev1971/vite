@@ -1,0 +1,3 @@
+** Hi everyone invited this repository:
+1) Just to start this project and I am testing ideas and html provided with css I just incorporated the html and css to react.
+2) currently testing bootstrap to make it easier the css unless there is something better out there.
