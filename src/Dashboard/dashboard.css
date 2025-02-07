@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 .row-bkg {
     background-color: #00bcd4;
     color:black;
